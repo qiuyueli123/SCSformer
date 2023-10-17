@@ -30,7 +30,7 @@ bash ./scripts/ECL_script/SCSformer_date_index.sh
 
 ## Result
 
-##### :trophy:Achieve state-of-the-art in Long-Term Time series Forecasting
+### :trophy:Achieve state-of-the-art in Long-Term Time series Forecasting
 
 ![result](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/result.png)
 
