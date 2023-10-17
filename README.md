@@ -4,7 +4,7 @@ This is the official repo for Cross-variable Transformer Frameworkfor Multivaria
 
 ## Model Overview
 
-![result](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/result.png)
+![overall](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/overall.png)
 
 **SCSformer Architecture.** The Statistical Characteristics Fusion Module is employed to extract and integrate the statistical characteristics of time series data. The Multilevel Linear Projection Module captures trend information while simultaneously enhancing the Transformer model, which is utilized to capture non-linear and cross-variable dependencies.
 
@@ -32,7 +32,7 @@ bash ./scripts/ECL_script/SCSformer_date_index.sh
 
 ##### :trophy:Achieve state-of-the-art in Long-Term Time series Forecasting
 
-![](C:\Users\10203\AppData\Local\Temp\tmp41EA.png)
+![result](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/result.png)
 
 ## Acknowledgement
 
