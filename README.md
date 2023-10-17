@@ -2,6 +2,12 @@
 
 This is the official repo for Cross-variable Transformer Frameworkfor Multivariate Long-Term Time Series Forecasting via Statistical Characteristics Space (SCSformer).
 
+## Model Overview
+
+![tmp3F9A](C:\Users\10203\AppData\Local\Temp\tmp3F9A.png)
+
+**SCSformer Architecture.** The Statistical Characteristics Fusion Module is employed to extract and integrate the statistical characteristics of time series data. The Multilevel Linear Projection Module captures trend information while simultaneously enhancing the Transformer model, which is utilized to capture non-linear and cross-variable dependencies.
+
 ## Getting Started
 
 1. Install Python >= 3.6, and install the dependencies by:
@@ -21,6 +27,12 @@ bash ./scripts/ETT_script/SCSformer_ETTh1_date_index.sh
 bash ./scripts/ECL_script/SCSformer_linear_index.sh
 bash ./scripts/ECL_script/SCSformer_date_index.sh
 ```
+
+## Result
+
+##### :trophy:Achieve state-of-the-art in Long-Term Time series Forecasting
+
+![](C:\Users\10203\AppData\Local\Temp\tmp41EA.png)
 
 ## Acknowledgement
 
