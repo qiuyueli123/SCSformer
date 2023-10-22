@@ -4,7 +4,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' \
@@ -39,7 +39,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -72,7 +72,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -105,7 +105,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -138,7 +138,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' \
@@ -173,7 +173,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -206,7 +206,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -241,7 +241,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -274,7 +274,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' \
@@ -307,7 +307,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -340,7 +340,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -373,7 +373,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -406,7 +406,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' \
@@ -440,7 +440,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -473,7 +473,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -509,7 +509,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
