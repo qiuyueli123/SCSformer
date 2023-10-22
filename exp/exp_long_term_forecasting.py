@@ -105,7 +105,6 @@ class Exp_Long_Term_Forecast(Exp_Basic):
             iter_count = 0
             train_loss = []
             current_lr = model_optim.param_groups[0]['lr']
-            print('实时学习率为：', current_lr)
 
             self.model.train()
             epoch_time = time.time()
