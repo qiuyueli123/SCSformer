@@ -4,7 +4,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -39,7 +39,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -76,7 +76,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -113,7 +113,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -148,7 +148,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -183,7 +183,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -219,7 +219,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -255,7 +255,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -290,7 +290,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -326,7 +326,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -361,7 +361,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -395,7 +395,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -431,7 +431,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -467,7 +467,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -502,7 +502,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -537,7 +537,7 @@ python -u run.py \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
   --model_id ETTm1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTm1 \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \

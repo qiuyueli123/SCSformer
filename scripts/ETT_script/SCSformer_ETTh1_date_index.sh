@@ -4,7 +4,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay'  \
@@ -38,7 +38,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'DayOfWeek'  \
@@ -72,7 +72,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'MonthOfYear'  \
@@ -106,7 +106,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -142,7 +142,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay'  \
@@ -176,7 +176,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'DayOfWeek'  \
@@ -212,7 +212,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'MonthOfYear'  \
@@ -246,7 +246,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -283,7 +283,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay'  \
@@ -317,7 +317,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'DayOfWeek'  \
@@ -352,7 +352,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'MonthOfYear'  \
@@ -387,7 +387,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
@@ -422,7 +422,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay'  \
@@ -457,7 +457,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'DayOfWeek'  \
@@ -492,7 +492,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'MonthOfYear'  \
@@ -526,7 +526,7 @@
   --root_path ./dataset/ETT-small/ \
   --data_path ETTh1.csv \
   --model_id ETTh1_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data ETTh1 \
   --trans_data True \
   --date_index  'HourOfDay' 'DayOfWeek' \
