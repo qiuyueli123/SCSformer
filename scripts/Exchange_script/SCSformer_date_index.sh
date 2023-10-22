@@ -4,7 +4,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -37,7 +37,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -72,7 +72,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -105,7 +105,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -141,7 +141,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -176,7 +176,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
@@ -211,7 +211,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'DayOfWeek' \
@@ -245,7 +245,7 @@ python -u run.py \
   --root_path ./dataset/exchange_rate/ \
   --data_path exchange_rate.csv \
   --model_id Exchange_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index  'MonthOfYear' \
