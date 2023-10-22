@@ -4,7 +4,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_24 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'SecondOfMinute' \
@@ -37,7 +37,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_24 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -75,7 +75,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_36 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'SecondOfMinute' \
@@ -109,7 +109,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_36 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -142,7 +142,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_48 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'SecondOfMinute' \
@@ -175,7 +175,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_48 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'MonthOfYear' \
@@ -208,7 +208,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_60 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'SecondOfMinute' \
@@ -242,7 +242,7 @@ python -u run.py \
   --root_path ./dataset/illness/ \
   --data_path national_illness.csv \
   --model_id ili_36_60 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'MonthOfYear' \
