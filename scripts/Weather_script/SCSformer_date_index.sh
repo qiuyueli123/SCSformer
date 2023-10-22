@@ -4,7 +4,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -41,7 +41,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -76,7 +76,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_96 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -111,7 +111,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -146,7 +146,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -181,7 +181,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_192 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -218,7 +218,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -254,7 +254,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -288,7 +288,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_336 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
@@ -324,7 +324,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' \
@@ -358,7 +358,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'DayOfWeek' \
@@ -393,7 +393,7 @@ python -u run.py \
   --root_path ./dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_96_720 \
-  --model TMSClient \
+  --model SCSformer \
   --data custom \
   --trans_data True \
   --date_index 'HourOfDay' 'DayOfWeek' \
