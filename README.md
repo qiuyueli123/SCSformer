@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ```
 # ETTh1
-bash ./scripts/ETT_script/SCSformer_ETTh1_linear_index.sh
+bash ./scripts/ETT_script/SCSformer_ETTh1_linear_layer.sh
 bash ./scripts/ETT_script/SCSformer_ETTh1_date_index.sh
 # ECL
 bash ./scripts/ECL_script/SCSformer_linear_index.sh
