@@ -70,7 +70,7 @@ class Model(nn.Module):
         x_enc_tmp = torch.cat([x_enc_0.unsqueeze(2), x_enc_1.unsqueeze(2), x_enc_2.unsqueeze(2)], axis=2)
         x_enc_tmp = x_enc_tmp.permute(0, 2, 1, 3)
         x_enc_tmp = self.conv(x_enc_tmp).squeeze(1)
-        convd_linear_out = self.proj_conv(x_enc_0).permute(0, 2, 1)
+        convd_linear_out = self.proj_conv(x_enc_tmp).permute(0, 2, 1)
         
         enc_out, attns = self.encoder(x_enc_tmp, attn_mask=enc_self_mask)
         dec_out = self.proj(enc_out)
