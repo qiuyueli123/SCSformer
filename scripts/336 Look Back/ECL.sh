@@ -1,0 +1,136 @@
+python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/electricity/ \
+  --data_path electricity.csv \
+  --model_id ECL_336_720 \
+  --model SCSformer \
+  --data custom \
+  --trans_data True \
+  --date_index  'HourOfDay' 'DayOfWeek' \
+  --features M \
+  --seq_len 336 \
+  --label_len 48 \
+  --pred_len 720 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 321 \
+  --dec_in 321 \
+  --c_out 321 \
+  --des 'Exp' \
+  --learning_rate 0.001 \
+  --itr 1 \
+  --train_epochs 10 \
+  --patience 3 \
+  --lradj type3 \
+  --d_model 4096 \
+  --d_ff 4096 \
+  --orgin_coef 1.0 \
+  --revin_coef 0.0 \
+  --convd_coef 1.0 \
+  --kernel_size 3
+
+python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/electricity/ \
+  --data_path electricity.csv \
+  --model_id ECL_336_336 \
+  --model SCSformer \
+  --data custom \
+  --trans_data True \
+  --date_index  'HourOfDay' 'DayOfWeek' \
+  --features M \
+  --seq_len 336 \
+  --label_len 48 \
+  --pred_len 336 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 321 \
+  --dec_in 321 \
+  --c_out 321 \
+  --des 'Exp' \
+  --learning_rate 0.001 \
+  --itr 1 \
+  --train_epochs 10 \
+  --patience 3 \
+  --lradj type3 \
+  --d_model 4096 \
+  --d_ff 4096 \
+  --orgin_coef 1.0 \
+  --revin_coef 0.0 \
+  --convd_coef 1.0 \
+  --kernel_size 3
+
+python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/electricity/ \
+  --data_path electricity.csv \
+  --model_id ECL_336_192 \
+  --model SCSformer \
+  --data custom \
+  --trans_data True \
+  --date_index  'HourOfDay' 'DayOfWeek' \
+  --features M \
+  --seq_len 336 \
+  --label_len 48 \
+  --pred_len 192 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 321 \
+  --dec_in 321 \
+  --c_out 321 \
+  --des 'Exp' \
+  --learning_rate 0.00025 \
+  --itr 1 \
+  --train_epochs 10 \
+  --patience 3 \
+  --lradj type1 \
+  --d_model 4096 \
+  --d_ff 4096 \
+  --orgin_coef 1.0 \
+  --revin_coef 0.0 \
+  --convd_coef 1.0 \
+  --kernel_size 3
+ 
+
+ 
+ 
+python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/electricity/ \
+  --data_path electricity.csv \
+  --model_id ECL_336_96 \
+  --model SCSformer \
+  --data custom \
+  --trans_data True \
+  --date_index  'HourOfDay' 'DayOfWeek' \
+  --features M \
+  --seq_len 336 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 321 \
+  --dec_in 321 \
+  --c_out 321 \
+  --des 'Exp' \
+  --learning_rate 0.00025 \
+  --itr 1 \
+  --train_epochs 10 \
+  --patience 3 \
+  --lradj type1 \
+  --d_model 4096 \
+  --d_ff 4096 \
+  --orgin_coef 1.0 \
+  --revin_coef 0.0 \
+  --convd_coef 1.0 \
+  --kernel_size 3
+  
+  
