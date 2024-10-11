@@ -2,11 +2,13 @@
 
 This is the official repo for Cross-variable Transformer Frameworkfor Multivariate Long-Term Time Series Forecasting via Statistical Characteristics Space (SCSformer).
 
+Paper Link: https://link.springer.com/article/10.1007/s10489-024-05764-9
+
 ## Model Overview
 
 ![overall](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/overall.png)
 
-**SCSformer Architecture.** The Statistical Characteristics  Module is employed to extract the global values and volatility of the time series and fuse them with the original time series. The Multilevel Linear Projection Module is used to captures the linear dependencies. The Revin module is used to perform the normalization and the inverse normalization operations, which can reduce the difficulty of model training and improve the model's performance.
+**SCSformer Architecture.** The Statistical Characteristics Fusion Module is employed to extract and integrate the statistical characteristics of time series data. The Multilevel Linear Projection Module captures trend information while simultaneously enhancing the Transformer model, which is utilized to capture non-linear and cross-variable dependencies.
 
 ## Getting Started
 
@@ -17,22 +19,15 @@ pip install -r requirements.txt
 ```
 
 2. You can obtain all the nine datasets from [[Google Drive]](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2?usp=sharing), [[Tsinghua Cloud]](https://cloud.tsinghua.edu.cn/f/84fbc752d0e94980a610/) or [[Baidu Drive]](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy) and put them into the folder `./dataset`.
-3. Train and evaluate the model. We provide all training scripts under the folder `./scripts/`, You can reproduce the results as the following examples:
+3. You can reproduce the experiment results through the training scripts `./scripts/`, and the name of our model's scripts is started with 'SCS' and ended with 'linear_index' or 'date_index'.
 
 ```
-# Multivariate forecasting with SCSformer
-bash ./scripts/multivariate_forecasting/Traffic_script/SCSformer.sh
-bash ./scripts/multivariate_forecasting/ETT_script/SCSformer_ETTh1.sh
-
-# Experiment Results Under the Multilevel Linear Projection Module
-bash ./scripts/MLP/Traffic.sh
-
-# Experiment Results Under the Statistical Characteristics Space
-bash ./scripts/SCS/Traffic.sh
-
-# Hyperparameter Analysis 
-bash ./scripts/hyperparameter_analysis/learning_rate/Traffic.sh
-bash ./scripts/hyperparameter_analysis/dimension/Traffic.sh
+# ETTh1
+bash ./scripts/ETT_script/SCSformer_ETTh1_linear_layer.sh
+bash ./scripts/ETT_script/SCSformer_ETTh1_date_index.sh
+# ECL
+bash ./scripts/ECL_script/SCSformer_linear_index.sh
+bash ./scripts/ECL_script/SCSformer_date_index.sh
 ```
 
 ## Result
@@ -40,12 +35,6 @@ bash ./scripts/hyperparameter_analysis/dimension/Traffic.sh
 ### :trophy:Achieve state-of-the-art in Long-Term Time series Forecasting
 
 ![result](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/result.png)
-
-## Prediction Showcases
-
-Comparison of different models on Traffic. SCSformer outperforms the other models significantly, especially in terms of detail.
-
-![case1](https://raw.githubusercontent.com/qiuyueli123/SCSformer/main/pic/showcase.png)
 
 ## Acknowledgement
 
